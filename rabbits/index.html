@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <style>
+      body{
+        background-color: #000;
+        text-align: center;
+      }
+      img{
+        width:150px; height:200px;
+        display: block;
+        margin:auto;
+        /*
+        position:relative;
+        left:50%;
+        */
+      }
+      .btn{
+        outline: none;
+        background: coral;
+        color:#fff;
+        font-size: 20px;;
+        width:150px;
+        margin:16px 0;
+        cursor:pointer;
+        /*
+        position:relative;
+        left:50%;
+        */
+      }
+    </style>
+  </head>
+
+  <body>
+    <button class="btn">Find a rabbit</button>
+
+    <img src="img/carrot.png" alt="carrot">
+    <img src="img/carrot.png" alt="carrot">
+    <img src="img/carrot.png" alt="carrot">
+    <img src="img/carrot.png" alt="carrot">
+    <img src="img/carrot.png" alt="carrot">
+    <img id="rabbit" src="img/rabbit.png" alt="rabbit">
+    <img src="img/carrot.png" alt="carrot">
+    <img src="img/carrot.png" alt="carrot">
+    <img src="img/carrot.png" alt="carrot">
+    <img src="img/carrot.png" alt="carrot">
+    <script>
+      const btn = document.querySelector('.btn');
+      const rabbit = document.querySelector('#rabbit');
+
+      btn.addEventListener('click', () => {
+        rabbit.scrollIntoView({behavior:'smooth', block:'start'});
+      });
+      //1. 버튼을 클릭하면 토끼 이미지로 이동한다.
+      //2. 이동값을 받아와야한다.
+    </script>
+  </body>
+</html>
