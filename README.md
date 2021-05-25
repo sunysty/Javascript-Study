@@ -1,2 +1,7 @@
-Javascript mini clone List
-<img width="80%" src="https://user-images.githubusercontent.com/67423755/119437555-57572500-bd59-11eb-9d63-45fc3ef7817d.gif"/>
+# Javascript mini clone List
+
+## 1. coordinate 
+<img width="100%" src="https://user-images.githubusercontent.com/67423755/119437555-57572500-bd59-11eb-9d63-45fc3ef7817d.gif"/>
+
+### 1.1 top, left로 position을 줌
+### 2.2 성능개선을 위해 layout을 transform으로 변경함
