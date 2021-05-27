@@ -11,6 +11,7 @@ function onAdd() {
     
     //3. items 컨테이너 안에 새로 만든 아이템을 추가함
     items.appendChild(item);
+    item.scrollIntoView({block:'center'});
     
     //4. 인풋을 초기화함
     input.value='';
@@ -50,3 +51,9 @@ function createItem(text) {
 addBtn.addEventListener('click', () => {
     onAdd();
 });
+
+input.addEventListener('keypress', (e) => {
+    if(e.key === 'Enter') onAdd();
+});
+
+    

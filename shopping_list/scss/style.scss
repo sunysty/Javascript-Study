@@ -31,21 +31,23 @@ button{
     .items{
         width:100%;
         .item__row{
-            display:flex;
             width:100%;
             .item{
+                &::after{
+                    display:block; clear:both; content:'';
+                }
                 .item__name{
+                    width:90%;
                     color:#777;
                     font: 23px/1 'Cormorant Garamond', serif;
                     margin-left:10px;
-                    flex-direction: row;
-                    justify-content: flex-start;
+                    float:left;
                 }
                 .item__delete{
+                    width:10%;
                     transition: transform 0.1s ease-in;
                     margin-right:10px;
-                    flex-direction: row;
-                    justify-content: flex-end;
+                    float:right;
                     
                     i{
                         color:#999;
@@ -57,15 +59,15 @@ button{
                     }
                 }
             }
+            .item__divider{
+                width:90%;
+                height:1px;
+                margin:auto;
+                box-sizing:border-box;
+                background-color: #999;   
+            }
         }
-        .item__divider{
-            width:90%;
-            height:1px;
-            margin:auto;
-            box-sizing:border-box;
-            background-color: #999;
-            
-        }
+        
     }
 
     .footer{
