@@ -11,6 +11,6 @@
 ## 2. shopping_list
 ### 미해결
 - 21.05.28 05:12 선이 옆으로 오는 문제가 생김.
-<img width="100%" src="https://user-images.githubusercontent.com/67423755/119890253-8f858000-bf72-11eb-975e-78d0a8c8f9ac.gif"/>
+<img width="50%" src="https://user-images.githubusercontent.com/67423755/119890253-8f858000-bf72-11eb-975e-78d0a8c8f9ac.gif"/>
 
 
