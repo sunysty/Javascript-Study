@@ -1,5 +1,8 @@
 # Javascript mini clone List
 
+## 0. 정리본
+<a href="https://www.notion.so/101-a60bf628302b4296afb6bab6a7586f3b#4ff6d45910034de29c90b60efc9b13c5">요기</a>
+
 ## 1. coordinate 
 <img width="70%" src="https://user-images.githubusercontent.com/67423755/119437555-57572500-bd59-11eb-9d63-45fc3ef7817d.gif"/>
 
