@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  width: 400px;
+  padding: 100px;
+  margin: 50px auto;
+  background: #f0e3e3;
+  text-align: center; }
+  .container h1 {
+    font: normal 30px/50px 'arial';
+    font-family: 'Gugi', cursive; }
+  .container .question {
+    margin-top: 100px;
+    font: normal 30px/50px 'arial';
+    display: flex;
+    justify-content: center; }
+    .container .question .first_num {
+      width: 50px;
+      height: 50px;
+      background: royalblue;
+      color: #eee;
+      font-family: 'Gugi', cursive; }
+    .container .question .multi {
+      width: 50px;
+      height: 50px;
+      background: royalblue;
+      color: #eee;
+      font-family: 'Gugi', cursive; }
+    .container .question .second_num {
+      width: 50px;
+      height: 50px;
+      background: royalblue;
+      color: #eee;
+      font-family: 'Gugi', cursive; }
+  .container .answer {
+    display: flex;
+    justify-content: center; }
+    .container .answer .equal {
+      width: 50px;
+      height: 50px;
+      background: royalblue;
+      font: bold 30px/50px 'arial';
+      color: #eee;
+      font-family: 'Gugi', cursive; }
+    .container .answer input {
+      width: 100px;
+      height: 50px;
+      font: normal 20px/50px 'arial';
+      font-family: 'Gugi', cursive;
+      padding: 10px; }
+  .container button {
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+    font: normal 23px/40px 'arial';
+    font-family: 'Gugi', cursive;
+    border: 1px solid lightgrey; }
+    .container button:hover {
+      color: #eee;
+      background: royalblue; }
+
+/*# sourceMappingURL=style.css.map */
