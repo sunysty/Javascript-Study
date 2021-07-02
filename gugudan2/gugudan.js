@@ -39,6 +39,6 @@ form.addEventListener('submit', (e) => {
         userInput.value = '';
         userInput.classList.add('wrongAnswer');
 
-        setTimeout(anmiationOut, 400);
+        setTimeout(animationOut, 400);
     }
 })
