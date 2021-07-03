@@ -30,6 +30,7 @@
 ##### 21.07.02
 <img width="50%" src="https://user-images.githubusercontent.com/67423755/124345054-4da2c600-dc11-11eb-8469-c3efb139eb6a.gif"/>
 - classList add로 animation효과를 주는 클래스 생성 --> settimeout을 이용, 몇초 후 애니메이션이 classList를 remove로 제거되도록 만듬
+- eventListener에서  form을 submit해주면 enter와 click이 모두 해결된다.
 
 ### 4. multiplication_table(끝말잇기)
 ##### 21.07.03
