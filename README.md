@@ -20,9 +20,11 @@
 
 ## 3. gugudan
 - 21.07.03
-- <img width="70%" src=""/>
+- <img width="70%" src="https://github.com/sunysty/javascript-mini_project/issues/3#issue-936183789"/>
 - classList add로 animation효과를 주는 클래스 생성 --> settimeout을 이용, 몇초 후 애니메이션이 classList를 remove로 제거되도록 만듬
 
 ## 4. multiplication_table
 - 21.07.04
-- new Date()함수를 이용해서 년도 - 월+1 - 일 을 표시하 
+- <img width="70%" src="https://github.com/sunysty/javascript-mini_project/issues/4#issue-936183916"/>
+- new Date()함수를 이용해서 year-month+1-date 을 표시하기
+- '0'.slice(-2)를 이용해서 yyyy-mm-dd로 날짜 표시하기
