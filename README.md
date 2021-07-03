@@ -1,11 +1,11 @@
 # Javascript mini 
-##### Table of Contents  
-######webAPI101
+#### Table of Contents  
+#####webAPI101
 [1. coordinate(좌표) ](#1-coordinate)  
 [2. shopping_list(장보기목록)](#2-shopping_list)
 
 
-######javascript game
+#####javascript game
 [3. gugudan(구구단게임)](#3-gugudan)<br>
 [4. multiplication_table(끝말잇기)](#4-multiplication_table)
 
