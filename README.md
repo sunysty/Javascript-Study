@@ -7,7 +7,8 @@
 
 #### 0. 공부한 것 정리
 ##### 21.05.14~</br>
-<a href="https://www.notion.so/101-a60bf628302b4296afb6bab6a7586f3b#4ff6d45910034de29c90b60efc9b13c5" color="yellow">노션기록</a>
+<a href="https://www.notion.so/101-a60bf628302b4296afb6bab6a7586f3b#4ff6d45910034de29c90b60efc9b13c5" color="yellow">WEBAIP-101 배운것정리</a>
+<a href="https://www.notion.so/09b39819ea0e4a9aa6ec86f5b63817b9" color="yellow">자바스크립트-게임만들기 배운것정리</a>
 
 
 ### 1. coordinate(좌표)
