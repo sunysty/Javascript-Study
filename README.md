@@ -8,11 +8,11 @@
 
 ## 0. 공부한 것 정리
 - 21.05.14~</br>
-<a href="https://www.notion.so/101-a60bf628302b4296afb6bab6a7586f3b#4ff6d45910034de29c90b60efc9b13c5">노션고고</a>
+<a href="https://www.notion.so/101-a60bf628302b4296afb6bab6a7586f3b#4ff6d45910034de29c90b60efc9b13c5">노션기록</a>
 
 ## 1. coordinate 
 - 21.05.24</br>
-<img width="70%" src="https://user-images.githubusercontent.com/67423755/119437555-57572500-bd59-11eb-9d63-45fc3ef7817d.gif"/>
+<img width="60%" src="https://user-images.githubusercontent.com/67423755/119437555-57572500-bd59-11eb-9d63-45fc3ef7817d.gif"/>
 
 ### 변경사항
 - top, left로 position을 줌
@@ -26,11 +26,11 @@
 
 ## 3. gugudan
 - 21.07.02
-- <img width="70%" src="https://user-images.githubusercontent.com/67423755/124345054-4da2c600-dc11-11eb-8469-c3efb139eb6a.gif"/>
+<img width="50%" src="https://user-images.githubusercontent.com/67423755/124345054-4da2c600-dc11-11eb-8469-c3efb139eb6a.gif"/>
 - classList add로 animation효과를 주는 클래스 생성 --> settimeout을 이용, 몇초 후 애니메이션이 classList를 remove로 제거되도록 만듬
 
 ## 4. multiplication_table
 - 21.07.03
-- <img width="70%" src="https://user-images.githubusercontent.com/67423755/124345066-5e533c00-dc11-11eb-87e7-1434479349e0.gif"/>
+<img width="50%" src="https://user-images.githubusercontent.com/67423755/124345066-5e533c00-dc11-11eb-87e7-1434479349e0.gif"/>
 - new Date()함수를 이용해서 year-month+1-date 을 표시하기
 - '0'.slice(-2)를 이용해서 yyyy-mm-dd로 날짜 표시하기
