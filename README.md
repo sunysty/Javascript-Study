@@ -13,6 +13,7 @@
 - <a href="https://www.notion.so/101-a60bf628302b4296afb6bab6a7586f3b" style="background:#000; color:pink;">webAIP-101 기록</a></br>
 - <a href="https://www.notion.so/09b39819ea0e4a9aa6ec86f5b63817b9" style="background:#000; color:yellow;">자바스크립트-게임만들기 기록</a>
 
+----
 
 ### 1. coordinate(좌표)
 ##### 21.05.24</br>
@@ -22,6 +23,7 @@
 - top, left로 position을 줌
 - 성능개선을 위해 layout을 transform으로 변경함
 
+---
 
 ### 2. shopping_list(장보기목록)
 #### 미해결
