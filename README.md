@@ -6,8 +6,8 @@
 [4. multiplication_table(끝말잇기)](#4-multiplication_table)
 
 #### 0. 공부한 것 정리
-- 21.05.14~</br>
-<a href="https://www.notion.so/101-a60bf628302b4296afb6bab6a7586f3b#4ff6d45910034de29c90b60efc9b13c5">노션기록</a>
+##### 21.05.14~</br>
+<a href="https://www.notion.so/101-a60bf628302b4296afb6bab6a7586f3b#4ff6d45910034de29c90b60efc9b13c5" color="yellow">노션기록</a>
 
 
 ### 1. coordinate(좌표)
