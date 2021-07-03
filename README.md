@@ -1,9 +1,9 @@
 # Javascript mini clone List
 ##### Table of Contents  
-[1. coordinate ](#1.-coordinate)  
-[2. shopping_list](## 2. shopping_list)  
-[3. gugudan](## 3. gugudan)
-[4. multiplication_table](#4.-multiplication_table)
+[1. coordinate ](#1-coordinate)  
+[2. shopping_list](#2-shopping_list)  
+[3. gugudan](#3-gugudan)
+[4. multiplication_table](#4-multiplication_table)
 
 
 ## 0. 공부한 것 정리
