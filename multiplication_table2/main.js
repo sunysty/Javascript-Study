@@ -28,17 +28,16 @@ let result = document.querySelector('.result')
 //날짜 구하기
 let date = new Date();
 let year = date.getFullYear();
-let month = date.getMonth()+1; //왜 -1된 값이 나오지?
-let day = date.getDate();
+let month = ('0'+ (date.getMonth()+1)).slice(-2) ; //왜 -1된 값이 나오지?
+let day = ('0' + date.getDate()).slice(-2);
 
 //날짜 표시하기
 today.textContent = `${year}-${month}-${day}`
 
 
-
 //wrongAnswer 클래스를 add, remove를 반복하기 위해 setTimeout을 사용
 const animationOut = () => {
-    input.classList.remove('.wrongAnswer')
+    result.classList.remove('resultAnimation')
 }
 
 
@@ -49,13 +48,12 @@ form.addEventListener('submit', (e) => {
 
     if(question.textContent[question.textContent.length-1] === input.value[0]){
         question.textContent = input.value; 
-        result.innerHTML = 'GOOD!'
+        result.textContent = 'GOOD!'
         input.value = '';
     }else{
-        result.innerHTML = 'TRY AGAIN!'
+        result.textContent = 'TRY AGAIN!'
         input.value = '';
-        input.classList.add('.wrongAnswer')
-
+        result.classList.add('resultAnimation')
         setTimeout(animationOut, 400)
     }
 })

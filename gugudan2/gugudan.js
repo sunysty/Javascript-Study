@@ -16,7 +16,7 @@ console.log(result);
 
 //worngAnswer 반복사용(떼고붙이고)를 위해서 setTimeout 사용
 const animationOut = () => {
-    userInput.classList.remove('.wrongAnswer');
+    userInput.classList.remove('wrongAnswer');
 }
 
 
@@ -39,6 +39,6 @@ form.addEventListener('submit', (e) => {
         userInput.value = '';
         userInput.classList.add('wrongAnswer');
 
-        setTimeout(animationOut, 400);
+        setTimeout(animationOut, 300);
     }
 })
