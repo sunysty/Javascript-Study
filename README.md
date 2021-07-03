@@ -1,12 +1,12 @@
 # Javascript mini 
 ## Table of Contents  
 ##### webAPI101
-[1. coordinate(좌표) ](#1.-coordinate)  
-[2. shopping_list(장보기목록)](#2.-shopping_list)
+[1. coordinate(좌표) ](#1-coordinate좌표)  
+[2. shopping_list(장보기목록)](#2-shopping_list장보기목록)
 
 ##### javascript game
-[3. gugudan(구구단게임)](#3.-gugudan)<br>
-[4. multiplication_table(끝말잇기)](#4.-multiplication_table)
+[3. gugudan(구구단게임)](#3-gugudan구구단게임)<br>
+[4. multiplication_table(끝말잇기)](#4-multiplication_table끝말잇기)
 
 ---
 
