@@ -13,7 +13,7 @@
 ### 0. 공부한 것 노션정리
 ##### 21.05.14~</br>
 - <a href="https://www.notion.so/101-a60bf628302b4296afb6bab6a7586f3b" style="background:#000; color:pink;">webAIP-101 기록</a></br>
-- <a href="https://www.notion.so/09b39819ea0e4a9aa6ec86f5b63817b9" style="background:#000; color:yellow;">자바스크립트-게임만들기 기록</a>
+- <a href="https://www.notion.so/JS-ES2020-3ff96ffc5022467c93c5879e18695b6d" style="background:#000; color:yellow;">자바스크립트-게임만들기 기록</a>
 
 ---
 
