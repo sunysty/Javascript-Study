@@ -5,10 +5,10 @@
 [3. gugudan(구구단게임)](#3-gugudan)<br>
 [4. multiplication_table(끝말잇기)](#4-multiplication_table)
 
-#### 0. 공부한 것 정리
+### 0. 공부한 것 정리
 ##### 21.05.14~</br>
-<a href="https://www.notion.so/101-a60bf628302b4296afb6bab6a7586f3b" style="background:#000; color:pink;">WEBAIP-101 배운것정리</a></br>
-<a href="https://www.notion.so/09b39819ea0e4a9aa6ec86f5b63817b9" style="background:#000; color:yellow;">자바스크립트-게임만들기 배운것정리</a>
+- <a href="https://www.notion.so/101-a60bf628302b4296afb6bab6a7586f3b" style="background:#000; color:pink;">WEBAIP-101 배운것정리</a></br>
+- <a href="https://www.notion.so/09b39819ea0e4a9aa6ec86f5b63817b9" style="background:#000; color:yellow;">자바스크립트-게임만들기 배운것정리</a>
 
 
 ### 1. coordinate(좌표)
