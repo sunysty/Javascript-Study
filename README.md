@@ -1,4 +1,4 @@
-# Javascript mini clone List
+# Javascript mini 
 ##### Table of Contents  
 [1. coordinate ](#1-coordinate)  
 [2. shopping_list](#2-shopping_list)  
