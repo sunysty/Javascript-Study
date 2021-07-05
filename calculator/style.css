@@ -1,0 +1,17 @@
+table{
+    border:1px solid red;
+    user-select:none;
+}
+
+tr{
+    border:1px solid blue;
+}
+
+td{
+    border:1px solid green;
+}
+
+td:hover{
+    background:aqua;
+    cursor:pointer;
+}
