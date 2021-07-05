@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="result"></div>
+        <form>
+            <input type="text" class="userinput_blank">
+        </form>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td colspan="4" onclick="reset()">AC</td>
+            </tr>
+            <tr>
+                <td onclick="userInputHandler(7)">7</td>
+                <td onclick="userInputHandler(8)">8</td>
+                <td onclick="userInputHandler(9)">9</td>
+                <td onclick="userInputHandler('/')">/</td>
+            </tr>
+            <tr>
+                <td onclick="userInputHandler(4)">4</td>
+                <td onclick="userInputHandler(5)">5</td>
+                <td onclick="userInputHandler(6)">6</td>
+                <td onclick="userInputHandler('*')">×</td>
+            </tr>
+            <tr>
+                <td onclick="userInputHandler(1)">1</td>
+                <td onclick="userInputHandler(2)">2</td>
+                <td onclick="userInputHandler(3)">3</td>
+                <td onclick="userInputHandler('-')">-</td>
+            </tr>
+            <tr>
+                <td onclick="userInputHandler(0)">0</td>
+                <td onclick="userInputHandler('.')">.</td>
+                <td onclick="userInputHandler('+')">+</td>
+                <td onclick="calculateResult()">=</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
