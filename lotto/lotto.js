@@ -21,32 +21,21 @@ while(balls.length > 0){
 
 const picked_number = mixed
                     .slice(0,6)
-                    //6개뽑을때 이걸 쓴다.
+                    //6개 뽑을때 이걸 쓴다.(0~6까지 뽑음)
                     .sort(function(p,c){
-                        return p-c;//오름차순  c-p내림차순
+                        return p-c;
+                    //오름차순  c-p내림차순
                     });
 
 const bonus = mixed[mixed.length-1];
 
-
 //버튼을 눌렀을때 숫자가 나오도록
-
+    //결과버튼
 result_push.addEventListener("click", () => {
     const ball_color = (num) => {
         let ball = document.createElement('div');
-        
+        ball.classList.add('ball_color');
         ball.textContent = picked_number[num];
-        ball.style.display = 'inline-block';
-        ball.style.border = '1px solid black';
-        ball.style.borderRadius = '50%';
-        ball.style.width = '30px';
-        ball.style.height = '30px';
-        ball.style.textAlign = 'center';
-        ball.style.marginRight = '15px';
-        ball.style.marginTop = '5px';
-        ball.style.marginRight = '5px';
-        ball.style.marginLeft = '15px';
-        ball.style.lineHeight = '30px';
 
         let backgroundColor;
         if(picked_number[num] <= 10){
@@ -65,22 +54,52 @@ result_push.addEventListener("click", () => {
 
     setTimeout(function(){
         ball_color(0);
-    }, 1000);
+    }, 500);
     setTimeout(function(){
         ball_color(1);
-    }, 2000);
+    }, 1000);
     setTimeout(function(){
         ball_color(2);
-    }, 3000);
+    }, 1500);
     setTimeout(function(){
         ball_color(3);
-    }, 4000);
+    }, 2000);
     setTimeout(function(){
         ball_color(4);
-    }, 5000);
+    }, 2500);
     setTimeout(function(){
         ball_color(5);
-    }, 6000);
-
+    }, 3000);
 });
 
+    //보너스버튼
+// bonus_push.addEventListener("click", () => {
+//     const ball_color = ()
+// })
+
+bonus_push.addEventListener("click", () => {
+    const ball_color = (num) => {
+        let ball = document.createElement('div');
+        ball.classList.add('ball_color');
+        ball.textContent = picked_number[num];
+
+        let backgroundColor;
+        
+        if(picked_number[num] <= 10){
+            backgroundColor = 'red';
+        }else if(picked_number[num] <= 20){
+            backgroundColor = 'orange';
+        }else if(picked_number[num] <= 30){
+            backgroundColor = 'blue';
+        }else if(picked_number[num] <= 45){
+            backgroundColor = 'yellow';
+        }
+
+        ball.style.background = backgroundColor;
+        bonus_blank.appendChild(ball);
+    }
+
+    setTimeout(function(){
+        ball_color(0);
+    }, 500);
+})
