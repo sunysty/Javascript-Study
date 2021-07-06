@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculate</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="calculate.css">
+</head>
+<body>
+    <div>
+        <div class="result"></div>
+        <form>
+            <input type="text" class="userInput">
+        </form>
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <td onclick="reset()">AC</td>
+                <td onclick="positive_negative_number()">+/-</td>
+                <td onclick="percent()">%</td>
+                <td onclick="operator('/')">÷</td>
+            </tr>
+            <tr>
+                <td onclick="userInput(7)">7</td>
+                <td onclick="userInput(8)">8</td>
+                <td onclick="userInput(9)">9</td>
+                <td onclick="operator('*')">×</td>
+            </tr>
+            <tr>
+                <td onclick="userInput(4)">4</td>
+                <td onclick="userInput(5)">5</td>
+                <td onclick="userInput(6)">6</td>
+                <td onclick="operator('-')">-</td>
+            </tr>
+            <tr>
+                <td onclick="userInput(1)">1</td>
+                <td onclick="userInput(2)">2</td>
+                <td onclick="userInput(3)">3</td>
+                <td onclick="operator('+')">+</td>
+            </tr>
+            <tr>
+                <td colspan="2" onclick="userInput(0)">0</td>
+                <td onclick="operator('.')">.</td>
+                <td onclick="operator('=')">=</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
