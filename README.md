@@ -48,3 +48,7 @@
 <img width="50%" src="https://user-images.githubusercontent.com/67423755/124345066-5e533c00-dc11-11eb-87e7-1434479349e0.gif"/>
 - new Date()함수를 이용해서 year-month+1-date 을 표시하기
 - '0'.slice(-2)를 이용해서 yyyy-mm-dd로 날짜 표시하기
+
+
+<img width="50%" src="https://user-images.githubusercontent.com/67423755/124577273-112ccf80-de88-11eb-9fa5-eacd1bce41ea.gif"/>
+
