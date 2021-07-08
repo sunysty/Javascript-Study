@@ -61,3 +61,10 @@
 - sort()로 오름차순으로 뽑힌 공을 나열하기
 - 숫자의 범위마다 공의 색을 바꿔주는 클래스를 
 - setTimeout으로 공이 차례대로 나타나게 만들기
+
+---
+
+### 6. todolist(할일목록)
+#### 21.07.05
+<img width="50%" src="https://user-images.githubusercontent.com/67423755/124918760-5db30f00-e030-11eb-86f9-c7d8c26d26ac.gif"/>
+-document.createElement(태그), 부모.appendChild(자식), removeChild 를 이용해서 <li class="list">를 떼고 붙임
