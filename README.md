@@ -67,4 +67,4 @@
 ### 6. todolist(할일목록)
 #### 21.07.05
 <img width="50%" src="https://user-images.githubusercontent.com/67423755/124918760-5db30f00-e030-11eb-86f9-c7d8c26d26ac.gif"/>
--document.createElement(태그), 부모.appendChild(자식), removeChild 를 이용해서 \<li class="list">\를 떼고 붙임
+-document.createElement(태그), 부모.appendChild(자식), removeChild 를 이용해서 li class="list"를 떼고 붙임
