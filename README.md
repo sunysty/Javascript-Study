@@ -48,3 +48,16 @@
 <img width="50%" src="https://user-images.githubusercontent.com/67423755/124345066-5e533c00-dc11-11eb-87e7-1434479349e0.gif"/>
 - new Date()함수를 이용해서 year-month+1-date 을 표시하기
 - '0'.slice(-2)를 이용해서 yyyy-mm-dd로 날짜 표시하기
+
+---
+
+### 5. lotto(로또당첨게임)
+#### 21.07.04
+<img width="50%" src="https://user-images.githubusercontent.com/67423755/124768295-83c6a980-df73-11eb-9d59-8e4355a29a25.gif"/>
+- array().fill().map()을 이용해서 배열만들기
+- splice(), Math.random()를 이용해서 랜덤한 공 뽑아내기
+- push()로 랜덤한 숫자한개 뽑기
+- slice()로 여러개의 공을 뽑기
+- sort()로 오름차순으로 뽑힌 공을 나열하기
+- 숫자의 범위마다 공의 색을 바꿔주는 클래스를 
+- setTimeout으로 공이 차례대로 나타나게 만들기
