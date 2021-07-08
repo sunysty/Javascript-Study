@@ -1,4 +1,6 @@
-# Javascript mini 
+# Javascript mini project
+Javascript를 이용해서 만든 토이프로젝트와 만들면서 배운점들을 기록합니다.
+
 ## Table of Contents  
 ##### webAPI101
 [1. coordinate(좌표) ](#1-coordinate좌표)  
