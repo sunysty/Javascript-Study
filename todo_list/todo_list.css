@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 5px;
+}
+
+button{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.result{
+    margin-top:50px;
+    text-align: left;
+}
