@@ -7,7 +7,14 @@ button.addEventListener("click", ()=>{
     let list = document.createElement('li');//li태그를 생성하고 list라는 변수를 줌
     list.innerText = user_input.value;//list에 user_input에 입력된 값을 표시함
     result.appendChild(list);//result에 list를 자식요소로 추가해줌
+    list.style.listStyle = "none"
+    list.style.fontSize = "20px"
     user_input.value = " ";//user_input값은 빈칸으로 만듬
+
+    let list_remove = document.createElement('span');
+    list_remove.innerText = "✘"
+    list_remove.style.fontSize = "20px"
+    list.appendChild(list_remove);
 
     list.addEventListener('mouseover', () => {
         list.style.cursor = "pointer"

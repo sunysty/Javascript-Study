@@ -1,17 +1,43 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1522199670076-2852f80289c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::before{
+    content: "";
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #000;
+    z-index:-1;
+}
+
 .container{
+    width:40vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin:0 auto;
+    
 }
 
 input{
     padding: 5px;
+    outline:none;
+    background:#555;
+    border:none;
 }
 
 button{
     padding: 5px;
     cursor: pointer;
+    background: none;
+    border:none
 }
 
 .result{
