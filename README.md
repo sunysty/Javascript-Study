@@ -6,7 +6,9 @@
 
 ##### javascript game
 [3. gugudan(구구단게임)](#3-gugudan구구단게임)<br>
-[4. multiplication_table(끝말잇기)](#4-multiplication_table끝말잇기)
+[4. multiplication_table(끝말잇기)](#4-multiplication_table끝말잇기)<br>
+[5. lotto(로또당첨게임)](#5-lotto로또당첨게임)<br>
+[6. todolist(할일목록)](#6-todolist할일목록)
 
 ---
 
