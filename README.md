@@ -1,5 +1,5 @@
 # Javascript mini project
-Javascript를 이용해서 만든 토이프로젝트와 만들면서 배운점들을 기록합니다.
+Javascript를 이용한 토이프로젝트 입니다. 만들면서 배운점들을 기록합니다.
 
 
 
